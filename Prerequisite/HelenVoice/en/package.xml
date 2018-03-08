@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package Name="DisplayName" LicenseAgreement="TTS Supplement License.rtf" Culture="Culture" xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper">
+<PackageFiles>
+    <PackageFile Name="TTS Supplement License.rtf" />
+</PackageFiles>
+  <Strings>
+    <String Name="Culture">en</String>
+    <String Name="DisplayName">Speech Voice Helen</String>
+    <String Name="FullMsi">https://download.microsoft.com/download/4/0/D/40D6347A-AFA5-417D-A9BB-173D937BEED4/MSSpeech_TTS_en-US_Helen.msi</String>
+    <String Name="Anunexpectedexitcodewasr">An unexpected exit code was returned from the installer. The installation failed.</String>
+<String Name="GeneralFailure">A failure occurred attempting to install the Microsoft .NET Framework 4.5.2.</String>
+  </Strings>
+</Package>

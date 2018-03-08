@@ -1,0 +1,36 @@
+https://www.youtube.com/watch?v=K5UbekxefQg&index=3&list=PLbHg2vXGGz7qIq6vyQhpYm47Wj912LiId
+
+Live BING Wallpaper OTA 
+ Over The Air live daily.
+ One and the only one at this time for Android
+ 30 days Free to try
+ 9.99$ for subscription yearly
+ or 1$ for monthly
+ From your images/photos/Facebook/Skype/WeChat/Viber/Opera.. app, file manager, browser... use built-in android share feature choose Virgo\'s Sun Wallpaper....
+Become photos wallpaper collector of your self......
+Subscribe to live update wallpaper daily.....
+Future service, chaannel catergory setectable, adult, mature, nature, Hd, etc base on your country rule and regulatio... 
+ The visual is set to your wallpaper! 
+ Thank you all for your spiritual support by downloading app! 
+ Your feedback is waived.... 
+ This: 
+ Future release will auto update bing wallpaper by Google Cloud Messesge Service API 
+ is availbale NOW!!!
+ Change log 
+ Version 1.0.5.live.bing.gcm 
+ Daily update bing live wallpaper 
+ Free to try. 9.99$ send registration ID to my email for subcription 
+ One and the only one this time on market.. 
+ Version 1.0.5 
+ Free 
+ Add data:base64 scheme to set visual from browser... 
+ Version 1.0.3 
+ final version add notification 
+ support http: and file: scheme 
+ Version 1.0.2 
+ add more scheme support content: 
+ Version 1.0.1 
+ update from version 1.0.base 
+ bug fix for non Nokia devices 
+ Adhere to Nokia Publisher standard
+ Developed and tested on Nokia X2 DS

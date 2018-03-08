@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Product ProductCode="MS Speech Voice Helen" xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper">
+<PackageFiles CopyAllPackageFiles="false">
+      <PackageFile Name="MSSpeech_TTS_en-US_Helen.msi" HomeSite="FullMsi" PublicKey="3082010A0282010100CC7E807B41FA8BB44D992943DDE6F852DF5B4297BD33199CEFB5DAD0C0DCE8F1B7BE5CE10AB2C235A07EE4F3D438A7F20F4272A7BA9BCF1F24DE560D8473CCD363F717CDAF696F614D4C804FC8771C5164C8D304F31426B3B8423F3343B0DB26595893B56D89620F07565BD512A0B109CC162BF98CDF6156E806787FD77388260367D1A3FF3482AC2D4CD802ECED6FB9A231C5324CBBF6FD5F625B5EF1F66491C78577471CF6A72B472D0B37544FB61F048DB5EC6027A7F37EB67CA14C91A68B71D6C6356147BCC1154BDDAC3322BE0619964B8A1E6E00EBBE1E69DD585921032B3CBEE61305176635A7862D1AF1D934C001801AFC9A469D6EA4E748DC35EA370203010001" CopyOnBuild="False"/>
+</PackageFiles> 
+  <InstallChecks>
+    <RegistryCheck Property="ProductName" Key="HKCR\Installer\Products" Value="DEAE66484207EEA4D9313F5AB5891D41" />
+  </InstallChecks>
+<Commands Reboot="None">
+    <Command PackageFile="MSSpeech_TTS_en-US_Helen.msi">
+      <InstallConditions>
+        <BypassIf Property="ProductName" Compare="ValueEqualTo" Value="Microsoft Server Speech Text to Speech Voice (en-US, Helen)" />
+      </InstallConditions>
+      <ExitCodes>
+        <ExitCode Value="0" Result="Success"/>
+        <DefaultExitCode Result="Fail" String="Anunexpectedexitcodewasr" FormatMessageFromSystem="true" />
+      </ExitCodes>
+    </Command>
+  </Commands>
+</Product>

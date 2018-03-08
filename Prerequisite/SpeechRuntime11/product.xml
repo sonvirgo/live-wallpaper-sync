@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Product ProductCode="MS Speech Runtime 11" xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper">
+<PackageFiles CopyAllPackageFiles="false">
+      <PackageFile Name="speechplatformruntime.msi" HomeSite="FullMsi" PublicKey="3082010A0282010100C3A91FCF7C237F311E062589DD7579B9CF934B6192B695F2EFAA259D77F34B5A6D4990CCE031B8A602378774AFF2ACA06094B8C74E25FE87D858D2204E2DF13A652E925BA65DE69575E034E550219C7D3997B68E44236616A66520E036EB8AFA9DE2CB6001FC2A64C8874514F11ECACD28ACBAE5575926DCECC54A6C9AE6031A29323F009E83AC250D84CCDD6FB66ABB2DF7843A6D6631E83670FF849290F740769E882E47D62B11F78FE012652BBC5FEF15FCF7EC0168B7450CEEC004B00EB7BD786BAE8DE450F135E29E01D2E1EB5B7182612120F3D4C9DE1CB802456549BE7EB53786A7CDEC5ADFB87620FC111351FCFA2A50AAB41ED03A80BE63CADC81470203010001" CopyOnBuild="False"/>
+</PackageFiles> 
+  <InstallChecks>
+    <RegistryCheck Property="Version" Key="HKCR\Installer\Products" Value="780334B3E26E5FB4799FA46F1E2C04C9" />
+  </InstallChecks>
+<Commands Reboot="None">
+    <Command PackageFile="speechplatformruntime.msi">
+      <InstallConditions>
+        <BypassIf Property="Version" Compare="ValueGreaterThanOrEqualTo" Value="184556776" />
+        <BypassIf Property="Version" Compare="ValueExists" Value="N/A for ValueExists and ValueNotExists" />
+      </InstallConditions>
+      <ExitCodes>
+        <ExitCode Value="0" Result="Success"/>
+        <DefaultExitCode Result="Fail" String="Anunexpectedexitcodewasr" FormatMessageFromSystem="true" />
+      </ExitCodes>
+    </Command>
+  </Commands>
+</Product>

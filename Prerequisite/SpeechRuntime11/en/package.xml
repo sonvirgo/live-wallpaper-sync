@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package Name="DisplayName" LicenseAgreement="speech platform runtime 11 licence.rtf" Culture="Culture" xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper">
+<PackageFiles>
+    <PackageFile Name="speech platform runtime 11 licence.rtf" />
+</PackageFiles>
+  <Strings>
+    <String Name="Culture">en</String>
+    <String Name="DisplayName">Speech Runtime 11</String>
+    <String Name="FullMsi">https://download.microsoft.com/download/A/6/4/A64012D6-D56F-4E58-85E3-531E56ABC0E6/x64_SpeechPlatformRuntime/SpeechPlatformRuntime.msi</String>
+    <String Name="Anunexpectedexitcodewasr">An unexpected exit code was returned from the installer. The installation failed.</String>
+<String Name="GeneralFailure">A failure occurred attempting to install the Microsoft .NET Framework 4.5.2.</String>
+  </Strings>
+</Package>

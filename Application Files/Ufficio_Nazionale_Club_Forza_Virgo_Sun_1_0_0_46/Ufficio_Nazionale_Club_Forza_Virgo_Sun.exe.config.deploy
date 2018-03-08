@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+    </configSections>
+    <connectionStrings>
+        <add name="VirgoSunLicenseManagementServiceConnectionString"
+            connectionString="Network Library=DBMSSOCN;&#xD;&#xA; workstation id=whatever.mssql.somee.com;packet size=4096;user id=okieiam_SQLLogin_1;pwd=tmnr7yvmol;data source=whatever.mssql.somee.com;persist security info=False;initial catalog=whatever"
+            providerName="System.Data.SqlClient" />
+        <add name="Ufficio_National_Club.Properties.Settings.VirgoSunLicenseManagementServiceConnectionString"
+            connectionString="Data Source=whatever.mssql.somee.com;Initial Catalog=whatever;Persist Security Info=False;User ID=okieiam_SQLLogin_1;Password=tmnr7yvmol;Network Library=dbmssocn;Packet Size=4096;Workstation ID=whatever.mssql.somee.com"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <startup useLegacyV2RuntimeActivationPolicy="true">
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" /></startup>
+  <runtime>
+    <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">
+      <dependentAssembly>
+        <assemblyIdentity name="System.Net.Http.Primitives" publicKeyToken="b03f5f7f11d50a3a" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-4.2.29.0" newVersion="4.2.29.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Newtonsoft.Json" publicKeyToken="30ad4fe6b2a6aeed" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-7.0.0.0" newVersion="7.0.0.0" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Apis.Core" publicKeyToken="4b01fa6e34db77ab" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1.9.3.19379" newVersion="1.9.3.19379" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Apis.PlatformServices" publicKeyToken="4b01fa6e34db77ab" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1.9.2.27818" newVersion="1.9.2.27818" />
+      </dependentAssembly>
+      <dependentAssembly>
+        <assemblyIdentity name="Google.Apis" publicKeyToken="4b01fa6e34db77ab" culture="neutral" />
+        <bindingRedirect oldVersion="0.0.0.0-1.9.3.19379" newVersion="1.9.3.19379" />
+      </dependentAssembly>
+    </assemblyBinding>
+  </runtime>
+</configuration>

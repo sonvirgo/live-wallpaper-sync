@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package Name="DisplayName" LicenseAgreement="bing.rtf" Culture="Culture" xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper">
+<PackageFiles>
+    <PackageFile Name="bing.rtf" />
+</PackageFiles>
+  <Strings>
+    <String Name="Culture">en</String>
+    <String Name="DisplayName">Bing Desktop</String>
+    <String Name="FullMsi">https://download.microsoft.com/download/5/0/5/505FFC2C-8E37-41A0-8746-F9F3CF9FD8F9/BingDesktopSetup.exe</String>
+    <String Name="Anunexpectedexitcodewasr">An unexpected exit code was returned from the installer. The installation failed.</String>
+<String Name="GeneralFailure">A failure occurred attempting to install the Microsoft .NET Framework 4.5.2.</String>
+  </Strings>
+</Package>

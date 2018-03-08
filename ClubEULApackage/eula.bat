@@ -1,0 +1,1 @@
+@echo "EULA successfully installed"

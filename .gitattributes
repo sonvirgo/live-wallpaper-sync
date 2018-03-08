@@ -1,0 +1,6 @@
+*.application binary
+*.manifest binary
+*.deploy binary
+*.rtf binary
+*.txt binary
+*.bat binary

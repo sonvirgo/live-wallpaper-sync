@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package Name="DisplayName" LicenseAgreement="bonjour.rtf" Culture="Culture" xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper">
+<PackageFiles>
+    <PackageFile Name="bonjour.rtf" />
+</PackageFiles>
+  <Strings>
+    <String Name="Culture">en</String>
+    <String Name="DisplayName">Bonjour SDK</String>
+    <String Name="FullMsi">http://smartcoffee.sourceforge.net/bonjoursdksetup.exe</String>
+    <String Name="Anunexpectedexitcodewasr">An unexpected exit code was returned from the installer. The installation failed.</String>
+<String Name="GeneralFailure">A failure occurred attempting to install the Microsoft .NET Framework 4.5.2.</String>
+  </Strings>
+</Package>

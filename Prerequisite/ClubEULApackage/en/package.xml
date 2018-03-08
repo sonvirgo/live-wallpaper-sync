@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Package
+   xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper"
+   Name="DisplayName"
+   Culture="Culture"
+   LicenseAgreement="eula.txt">
+
+    <PackageFiles>
+         <PackageFile Name="eula.txt"/>
+         <PackageFile Name="eula.bat"/>
+     </PackageFiles>
+
+  <!-- Defines a localizable string table for error messages and url's  -->
+   <Strings>
+     <String Name="DisplayName">SG@ Club End User License Agreement</String>
+     <String Name="Culture">en</String>
+
+    <String Name="CancelFailure">User Failed to Accept My Company End User License Agreement.</String>
+     <String Name="GeneralFailure">A fatal error occurred during the installation of EULA Component Execution</String>
+     <String Name="AdminRequired">You do not have the permissions required to install this application.  Please contact your administrator.</String>
+   </Strings>    
+ </Package>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Product ProductCode="Bonjour SDK" xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper">
+<PackageFiles CopyAllPackageFiles="false">
+      <PackageFile Name="bonjoursdksetup.exe" HomeSite="FullMsi" PublicKey="3082010A0282010100BB48DB38D6F9D12A8FEA097D824454E816C4FBCD3B9076373FD6CE70FCD5425A4A65ED21168A68B5DB5B3C0E494D9B77E36AE6AF4BFDB71F4BBB8591A0A048C47FFDD023A6C3DF76BF43C508B668D7367B7EEF98B29BAD89EE7B3A897F0C6A7D08701BD739284EF6E75DA371683970E65672AABCFEDC8E1C3B68955A7A64E7118888BCABE34E60024F7CCDD2B09940DE9E1664771C871B0457B414B83716DA55DD46DDB780A3978BF796444FDE9D6036C644EC1A0F489930EE5EDC7B7B3B16112F039DBBFED77085E54D3CE53E76C332F89CE4945BED8748792E4CC2B9C071BE297978C8A9F5BC073E30C27305A60562BB7BF1B0B843A19AC0B3E99F05B214C30203010001" CopyOnBuild="False"/>
+</PackageFiles> 
+  <InstallChecks>
+    <RegistryCheck Property="ProductName" Key="HKCR\Installer\Products" Value="A91A5F0CA5502094D914681472FBFA11" />
+  </InstallChecks>
+<Commands Reboot="None">
+    <Command PackageFile="bonjoursdksetup.exe">
+      <InstallConditions>
+        <BypassIf Property="ProductName" Compare="ValueEqualTo" Value="Bonjour SDK" />
+      </InstallConditions>
+      <ExitCodes>
+        <ExitCode Value="0" Result="Success"/>
+        <DefaultExitCode Result="Fail" String="Anunexpectedexitcodewasr" FormatMessageFromSystem="true" />
+      </ExitCodes>
+    </Command>
+  </Commands>
+</Product>

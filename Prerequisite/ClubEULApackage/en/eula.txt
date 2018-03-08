@@ -1,0 +1,61 @@
+End User License Agreement!
+
+
+Welcome to the live-wallpaper-sync wiki!
+
+
+Repo include Babylon source work-space latest version 31/09/2015.
+
+
+Refine SQL server and include ClickOnce-latest stable build.
+
+
+Complete source code and binaries release 29/08/2016.
+
+
+Pickup q_drop 29/08/2016 build.
+
+
+ClickOnce publish folder is c:\temp
+
+
+Post-install unzip seeds.zip to c:\club
+
+
+Install and check Apple BonJour SDK.
+
+
+Due to VSTS build limitation, some Interop.Service DLL might need to deploy manually, finding in accompany zip packages.
+
+
+Optional: import Ufficio.Pfx key, magenu.exe sign app manifest.
+
+
+Enjoy!
+
+
+System Requirement:
+
+
+BackService requires .Net 4.5.2++; Bing Desktop
+
+
+Babylon requires Lollipop++; OpenCV 2.11
+
+
+Support and license:
+
+
+virgosun.somee.com
+
+
+Sun Virgo.
+
+
+I do not liable response to any data lost and/or damage to your computer system hardware and software because of installing and using this software.
+
+
+BonJour and other related are trade mark of Apple Inc. Windows and related are trade mark of Microsoft Corp. Other third party open-source and redistributable are respected trade mark of their products. This source and binaries is copy right law protected product of SG@ These are not redistributable. ©™®DMCA
+
+
+Thanks for reading!

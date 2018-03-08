@@ -1,0 +1,78 @@
+End User License Agreement!
+
+Welcome to the sonvirgo.github.io wiki!
+
+
+Repo include CoffeeFun source work-space latest version 31/03/2015.
+
+
+Refine SQL server and include ClickOnce-latest stable build.
+
+
+Complete source code and binaries release 29/08/2016.
+
+
+Due to VSTS build limitation, some Interop.Service DLL might need to deploy manually, finding in accompany zip packages.
+
+
+Optional: import Ufficio.Pfx key, magenu.exe sign app manifest.
+
+
+If you want the BackJoy to output e-bill, install Bullzip Pdf writer.
+
+
+Enjoy!
+
+
+System Requirement:
+
+
+BackJoy requires .Net 4.5.2++; Speech to Text Runtime 11
+
+
+FunEnd requires Lollipop++; OpenCV 2.11 for AOSP platform; html5 media support browser for other platform
+
+
+Support and license:
+
+
+virgosun.somee.com
+
+
+Sun Virgo
+
+
+I do not liable response to any data lost and/or damage to your computer system hardware and software because of installing and using this software.
+
+
+BonJour and other related are trade mark of Apple Inc. Windows and related are trade mark of Microsoft Corp. Other third party open-source and redistributable are respected trade mark of their products. This source and binaries is copy right law protected product of SG@. These are not redistributable. ©™®DMCA
+
+
+Thanks for reading!
+
+
+$ BEGIN ATTENTION $.
+
+
+POST INSTALL STEP APPLIED TO LOCAL INSTALL ONLY.
+
+
+If you choose to install from the web and follow 3 packages installation, then all post-install step is not required, else:
+
+
+Pickup r_drop 29/08/2016 build.
+
+
+ClickOnce publish folder is c:\temp
+
+
+Post-install place cegc.mid to c:\
+
+
+Point to your SQL server in the app config.
+
+
+Install and check Speech Runtime 11 and Helen voice.
+
+
+$ END OF ATTENTION $.

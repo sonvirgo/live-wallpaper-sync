@@ -1,0 +1,20 @@
+<Product
+   xmlns="http://schemas.microsoft.com/developer/2004/01/bootstrapper"
+   ProductCode="EULA.Bootstrap.Component"
+ >
+   <!-- Defines list of files to be copied on build -->
+   <PackageFiles>
+     <PackageFile Name="en/eula.bat"/>
+     <PackageFile Name="en/eula.txt"/>
+   </PackageFiles>
+
+  <Commands>
+     <Command PackageFile="en/eula.bat"
+       Arguments='' >
+        <ExitCodes>
+          <ExitCode Value="0" Result="Success"/>
+          <DefaultExitCode Result="Fail" FormatMessageFromSystem="true" String="GeneralFailure" />
+        </ExitCodes>
+     </Command>
+   </Commands>
+ </Product>
