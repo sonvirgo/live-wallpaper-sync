@@ -1,4 +1,6 @@
 
+[![Github All Releases](https://img.shields.io/github/downloads/sonvirgo/live-wallpaper-sync/total.svg)]()
+
 
 Repo include Babylon source workspace latest version 31/09/2015
 
